@@ -1,0 +1,11 @@
+# IDE
+.vscode
+
+# dist / build
+dist
+doc/_build
+doc/source/generated
+
+# Other
+__pycache__
+pyppr.egg-info

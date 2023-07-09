@@ -1,0 +1,49 @@
+# Configuration files
+*.ini text
+
+# Python sources
+*.py    text diff=python
+*.pxd   text diff=python
+*.pyx   text diff=python
+*.pyi   text diff=python
+
+# JavaScript
+*.js    text
+
+# Documents
+*.md    text diff=markdown
+*.txt   text
+*.rst   text
+*.pdf   binary
+*.css   text diff=css
+*.html  text diff=html
+
+# Graphics
+*.png   binary
+*.ico   binary
+*.dia   binary
+*.gif   binary
+*.odg   binary
+*.fig   text
+*.svg   text
+
+# Scripts
+*.sh    text eol=lf
+*.sed   text
+# These are explicitly windows files and should use crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# Serialisation
+*.json  text
+*.toml  text
+*.xml   text
+*.yaml  text
+*.yml   text
+
+# Data files
+*.csv   text
+*.pkl   binary
+*.fits  binary
+*.npy   binary
+*.npz   binary
